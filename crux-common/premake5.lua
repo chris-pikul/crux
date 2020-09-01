@@ -19,7 +19,8 @@ project "crux-common"
     }
 
     includedirs {
-        "src"
+        "src",
+        "src/crux-common"
     }
 
     filter "system:windows"
