@@ -1,4 +1,4 @@
-project "crux-common"
+project "crux-window"
     kind "StaticLib"
     language "C++"
     cppdialect "C++17"
@@ -21,7 +21,13 @@ project "crux-common"
     }
 
     includedirs {
-        "include"
+        "include",
+
+        "%{wks.location}/crux-common/include"
+    }
+
+    links {
+        "crux-common"
     }
 
     filter "system:windows"
