@@ -12,20 +12,14 @@ project "crux-common"
     pchsource "crx-pch.cpp"
 
     files {
-        "src/**.h",
-        "src/**.hpp",
+        "crx-pch.h",
+        "crx-pch.cpp",
+        "include/**.h",
+        "include/**.hpp",
         "src/**.c",
         "src/**.cpp"
     }
 
     includedirs {
-        "src",
-        "src/crux-common"
+        "include"
     }
-
-    filter "system:windows"
-        systemversion "latest"
-
-        defines {
-            "CRUX_WIN32=1"
-        }
