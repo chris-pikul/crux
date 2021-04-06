@@ -1,7 +1,5 @@
-#include "crx-pch.h"
-#include "platform.win32.h"
-
 #if CRUX_WIN32
+#include "platform.win32.h"
 
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN 1

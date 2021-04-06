@@ -27,3 +27,4 @@ TmpDir = (RootDir.. "/tmp/%{cfg.architecture}/%{cfg.buildcfg}")
 
 include "crux-common"
 include "crux-window"
+include "crux-example"

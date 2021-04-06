@@ -1,4 +1,3 @@
-#include "crx-pch.h"
 #include "common.h"
 
 #include "platform.h"

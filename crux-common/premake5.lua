@@ -8,9 +8,6 @@ project "crux-common"
     targetdir (BinDir.. "/%{prj.name}")
     objdir (TmpDir.. "/%{prj.name}")
 
-    pchheader "crx-pch.h"
-    pchsource "crx-pch.cpp"
-
     files {
         "crx-pch.h",
         "crx-pch.cpp",
